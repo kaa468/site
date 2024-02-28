@@ -1,0 +1,21 @@
+/* Buttons
+--------------------------- */
+.btn-primary   { background: #00462e; color: #fff; } /* dark green */
+.btn-secondary { background: #a1b11a; color: #fff; } /* light green */
+.btn-tertiary  { background: #00b2e2; color: #fff; } /* blue */
+.btn-cta       { background: #f7931d; color: #fff; } /* orange */
+
+/* Forms
+--------------------------- */
+.form-control {
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus,
+.form-control:active {
+  outline: none;
+  box-shadow: none;
+  background: #ccc;
+  border: 1px solid #000;
+}

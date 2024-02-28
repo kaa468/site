@@ -4,6 +4,7 @@
 </template>
 
 <script>
+import '@/assets/styles.css';
 import HelloWorld from './components/HelloWorld.vue'
 
 export default {
