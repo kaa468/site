@@ -22,4 +22,7 @@ jobs:
       - name: Run deploy script
         run: |
           git config user.name "kaa468" && git config user.email "1kanaya51@gmail.com"
-          npm run ./gh-pages-deploy.js
+          npm run gh-pages-deploy
+
+      - name: Need to see what scripts are running
+        run: npm run
