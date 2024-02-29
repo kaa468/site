@@ -19,7 +19,7 @@ jobs:
           path: gh-pages
 
       - name: Clean install dependencies
-        run: npm install
+        run: npm ci
 
       - name: lets find outdate packages
         run: npm outdated --depth=3
