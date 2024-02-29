@@ -19,6 +19,9 @@ jobs:
       - name: Clean install dependencies
         run: npm ci
 
+      - name: install all missing packages test
+        run: npm install @babel/core 7.24.0
+
       - name: lets find outdate packages
         run: npm outdated --depth=3
 
