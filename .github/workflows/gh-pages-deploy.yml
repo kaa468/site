@@ -20,11 +20,7 @@ jobs:
         run: npm ci
 
       - name: To address all issues
-        run: npm audit fix --force
-
-      - name: reinstalling npm
-        run: npm install
-             npm start
+        run: npm audit fix 
 
       - name: Run deploy script
         run: |
