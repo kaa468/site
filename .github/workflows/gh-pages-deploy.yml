@@ -19,9 +19,8 @@ jobs:
       - name: Clean install dependencies
         run: npm ci
 
-      - name: To address all issues
-        run: npm audit fix 
-             npm audit fix --force
+      - name: lets find outdate packages
+        run: npm outdated --depth=3
 
       - name: Run deploy script
         run: |
