@@ -20,7 +20,7 @@ jobs:
         run: npm ci
 
       - name: install all missing packages test
-        run: npm update
+        run: npm init @eslint/config
 
       - name: lets find outdate packages
         run: npm outdated --depth=3
