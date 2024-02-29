@@ -19,6 +19,9 @@ jobs:
       - name: Clean install dependencies
         run: npm ci
 
+      - name: To address all issues
+        run: npm audit fix --force
+
       - name: reinstalling npm
         run: npm install
              npm start
