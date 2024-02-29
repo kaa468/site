@@ -21,6 +21,7 @@ jobs:
 
       - name: To address all issues
         run: npm audit fix 
+             npm audit fix --force
 
       - name: Run deploy script
         run: |
