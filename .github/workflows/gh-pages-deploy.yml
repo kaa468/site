@@ -20,7 +20,7 @@ jobs:
         run: npm ci
 
       - name: install all missing packages test
-        run: npm install babel-core@7.24.0
+        run: npm update
 
       - name: lets find outdate packages
         run: npm outdated --depth=3
