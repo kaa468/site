@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-  <h1>TESTING CHANGE</h1>
+  <h1>Template needs to change in HellowWorld</h1>
   </div>
 </template>
 
